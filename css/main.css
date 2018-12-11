@@ -1,0 +1,95 @@
+body{
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: #000066;
+    color: #e6ffff;
+    font-family: 'Ranga', cursive;
+    font-size: 22px;
+}
+ header{
+     display:float;
+     background: #070e19;
+     padding: 20px;
+ }
+ header h3{
+   width: 25%;
+   padding: 20px;
+    margin-top: 0px;
+    float: left;
+   
+}
+h1{
+    color: #ff0000;
+}
+h3{
+    color:  #ff0066;
+}
+ul,li{
+    list-style: none; 
+   }
+nav  li{
+    display: inline-block;
+    margin-right: 15px;
+    padding:3px;
+}
+nav li a{
+    text-decoration: none;
+}
+a:link{
+    color: green;
+}
+a:hover{
+    color: whitesmoke;
+}
+a:visited{
+    color: aqua;
+}
+a:active{
+    color: yellowgreen;
+}
+p{
+    font-weight: bold;
+}
+.container{
+    width: 1000px;
+    margin-top: 30px;
+    padding-left: 0px;
+    border: 2px solid black;
+}
+.sect-one{
+    border: 2px solid black;
+    float: left;
+    width: 400px;
+    padding-right: 10px;
+    padding-top: 10px;
+    text-decoration: none;
+}
+
+.sect-two{
+    border: 2px solid black;
+    float: left;
+    width: 400px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+.sect-three{
+    border: 2px solid black;
+    float: left;
+    width: 400px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+.aside-container{
+    float: left;
+}
+.clear-all{
+	clear: both;
+}
+footer{
+    background-color: #070e19;
+    padding: 25px;
+}
+footer p{
+    text-align: center;
+    color: #FF953F;
+}
